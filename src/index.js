@@ -39,7 +39,7 @@ store.dispatch({ type: "DECREMENT" });
 store.dispatch({ type: "RESET" });
 
 const App = () => (
-  <div className="background">
+  <div id="background">
     <Provider store={store}>
       <Counter />
     </Provider>
